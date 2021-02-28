@@ -39,7 +39,7 @@ const Sidebar: React.FC<PropsSidebar> = ({ toggle, isOpen }) => {
 
   useEffect(() => {
     const getTotal = () => {
-      const res = cart.reduce((prev: any, item: any) => {
+      const res = cart.reduce((prev: any, item: ICart) => {
         return prev + item.price * item.count;
       }, 0);
       setTotal(res);
