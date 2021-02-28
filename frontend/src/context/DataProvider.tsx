@@ -1,5 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react';
 import { store } from 'react-notifications-component';
+
+// AXIOS
 import api from '../services/api';
 
 // INTERFACES

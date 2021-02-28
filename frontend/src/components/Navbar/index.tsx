@@ -3,10 +3,12 @@ import React, { useContext } from "react";
 // STYLED COMPONENTS
 import { Nav, NavLink, NavBtnCart, CartIcon } from "./NavbarElements";
 
+// CONTEXT
+import { DataContext } from '../../context/DataProvider';
+
 // ASSETS
 import SoloedStoreSVG from '../../assets/soloed_store-logo.svg'
 import CartSVG from '../../assets/cart.svg';
-import { DataContext } from "../../context/DataProvider";
 
 interface PropsNavbar {
   toggle: () => void;

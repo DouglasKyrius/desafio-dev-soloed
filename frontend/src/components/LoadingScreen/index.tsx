@@ -1,7 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { DataContext } from '../../context/DataProvider';
 
+// STYLED COMPONENTS
 import { LoadingContainer, Loader, LoaderInner } from './LoadingElements';
+
+// CONTEXT
+import { DataContext } from '../../context/DataProvider';
 
 const LoadingScreen: React.FC = () => {
   const contextValue = useContext(DataContext);

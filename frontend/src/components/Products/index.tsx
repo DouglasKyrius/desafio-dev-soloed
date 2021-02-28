@@ -15,10 +15,14 @@ import {
   ButtonImage
 } from "./ProductsElements";
 
+// CONTEXT
+import { DataContext } from '../../context/DataProvider';
+
+// INTERFACES
+import { IProducts } from '../../interfaces';
+
 // ASSETS
 import ShoppingBag from '../../assets/shopping-bag.svg';
-import { DataContext } from "../../context/DataProvider";
-import { IProducts } from "../../interfaces";
 
 const Products = () => {
   const contextValue = useContext(DataContext);

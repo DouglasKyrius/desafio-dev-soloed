@@ -1,6 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import { DataContext } from "../../context/DataProvider";
-import { ICart } from "../../interfaces";
 
 // STYLED COMPONENTS
 import {
@@ -19,6 +17,12 @@ import {
   SideBtnWrap,
   SidebarRoute,
 } from "./SidebarElements";
+
+// CONTEXT
+import { DataContext } from '../../context/DataProvider';
+
+// INTERFACES
+import { ICart } from '../../interfaces';
 
 interface PropsSidebar {
   toggle: () => void;
